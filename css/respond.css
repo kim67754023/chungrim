@@ -1,0 +1,190 @@
+@media screen and (min-width:1281px){
+    .chungrim >div ul{
+        display:block !important;
+    }
+  
+}
+@media screen and (max-width:1280px){
+    #header{
+        width:auto;
+        margin:0 auto;
+    }
+    #container{
+        width:auto;
+        margin: 0 auto;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        left:5%;
+        top:50%;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        right:5%;
+        top:50%;
+    }
+    .chungrim{
+        height:237px;
+        margin:140px auto 70px;
+    }
+    .chungrim>div{
+        width:32%;
+        min-width:320px;
+        margin: 10px 0.33%;
+    }
+    
+    .chungrim >div .owl-carousel .owl-item img{
+        width:140%;
+    }
+}
+@media screen and (min-width:992px){
+    #header nav >ul{
+        display: block !important;}
+}
+@media screen and (max-width:992px){
+    #header nav{
+        position: absolute;
+        left:0;
+        top:90px;
+        z-index: 9999;
+        width:100%;
+    }
+    .bg{
+        display: none !important;
+    }
+    #header nav >ul{
+        display: none ;
+        width:100%;
+        height:auto !important;
+        margin: -3px auto 0;
+        text-align: center;
+        font-size: 0;
+    }
+    #header nav >ul>li{
+        height: auto !important;
+    }
+    #header nav button.main_btn{
+        display: block !important;
+        top:-60px
+    }
+    #header nav >ul>li,
+    #header nav >ul >li:first-child{
+        position: relative;
+        z-index: 100;
+        float:none;
+        width:100%;
+        height: 40px;
+        margin: 0;
+    }
+    #header nav >ul>li>a{
+        background: #fff;
+        color:#222;
+        height:40px;
+        line-height: 40px;
+        margin: 0;
+        font-size: 16px;
+    }
+    #header nav >ul>li>.sub{
+        display: block;
+        position: static;
+        left:0;
+        top:0px;
+        z-index: 100;
+        width:100% !important;
+        text-align: center;
+    }
+    #header nav> ul> li>.sub>ul{
+        width:100%;
+        margin: 0 auto;
+        height:auto;
+     } 
+     #header nav> ul> li>.sub>ul>li{
+        width:100% !important;
+        height:auto;
+        float:none;
+    }
+    #header nav> ul> li>.sub>ul>li a{
+        display:block;
+        width:100%;
+        height:30px;
+        background: #fff;
+        color:#222 !important;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .on{
+        background: #2d92e0;
+    }
+    .chungrim{
+        height:249px;
+    }
+    .cbg{
+        position: absolute;
+        left:50%;
+        top:0;
+        z-index: 5;
+        transform:translate(-50%, 0);
+        margin:0 auto;
+        float:none;
+        width:100%;
+        height: 249px;
+        max-width:500px;
+        background: #134061;
+    }
+    .chungrim>div{
+        overflow: visible;
+        position: absolute;
+        left:50%;
+        top:0;
+        transform:translate(-50%, 0);
+        margin:0 auto;
+        float:none;
+        width:100%;
+        height: 249px;
+        max-width:414px;
+    }
+    
+    .chungrim>div ul{
+        display: none;
+        position: relative;
+        width:100%;
+    }
+    .on + .owl-carousel{
+        display: block;
+    }
+
+    .chungrim >div .owl-carousel .owl-item img{
+        width:100%;
+    }
+    .chungrim>div>button{
+        display:inline-block;
+    }
+    .chungrim div.owl-dots{
+        left:18px;
+    }
+    .chungrim >div ul .owl-stage-outer .owl-stage .owl-item li a .text p{
+        width:80%;
+    }
+    #header .topmenu{
+        position: fixed;
+        left:50%;
+        bottom: 0;
+        top:auto;
+        transform: translate(-20%,0 );
+    }
+    footer{
+        padding-top:30px;
+    }
+}
+@media screen and (max-width:768px){
+    .bx-has-pager{display: none;}
+    .topmenu{display: none;}
+    .nb .owl-dots{display: none;}
+    .slider{width:130%}
+}
+@media screen and (max-width:576px){
+    .form {margin:20px auto 20px ;}
+    #search{font-size: 14px;}
+    .author ul li a div.img img.bookimg{left:15%}
+    .chungrim >div ul .owl-stage-outer .owl-stage .owl-item li a .text h3 strong{font-weight: 400;}
+}
