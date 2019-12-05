@@ -126,9 +126,6 @@ a{
     
 }
 #header nav> ul> li>.sub{
-    position: absolute;
-    left:0;
-    top:90px;
     width:100%;
 }
 #header nav> ul> li>.sub>ul{
