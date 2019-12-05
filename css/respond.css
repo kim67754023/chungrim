@@ -59,7 +59,7 @@
         font-size: 0;
     }
     #header nav >ul>li{
-        height: auto !important;
+        height: auto;
     }
     #header nav button.main_btn{
         display: block !important;
